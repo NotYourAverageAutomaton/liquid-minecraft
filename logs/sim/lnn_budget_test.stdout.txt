@@ -1,0 +1,7 @@
+gain=0.5, budget 200: pre 0.72 (arr~115t) -> post 0.62  (DRIFT)
+gain=0.5, budget 400: pre 1.00 (arr~139t) -> post 0.69  (DRIFT)
+wall 13.3s
+
+real	0m13.324s
+user	0m13.313s
+sys	0m0.008s

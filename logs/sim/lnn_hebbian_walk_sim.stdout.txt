@@ -1,0 +1,12 @@
+=== PRE-REGISTERED RESULTS (pick a rung-1 sim, pure-python) ===
+H1 frozen-baseline : 0.02 CI(-0.01, 0.05)
+H1 Hebbian-learner : 0.79 CI(0.71, 0.87)  avg_ticks 103
+   shuffled-reward : 0.12  (control: must stay ~baseline)
+H2 learned, gain=0.5, no-learn : 0.72
+   frozen copy (plasticity OFF): 0.72
+   adapt copy  (plasticity ON) : 0.62
+CPU 71.2 us/tick (MC 50000us @20TPS -> 702x headroom)  wall 19.6s
+
+real	0m19.634s
+user	0m19.591s
+sys	0m0.014s
